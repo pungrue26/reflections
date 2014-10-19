@@ -16,3 +16,7 @@ A. It would be helpful when trying a experimental changes.
 
 Q. How do the diagrams help you visualize the branch structure?
 A. It makes clear relationship of eash commit, and reachability of each commit.
+
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. Merged commit has only one log history, which is interleaved by two branch history. We may also represent merge operation as interleaved history, but it destories logical parents of each commit and make diagram harder to read.
