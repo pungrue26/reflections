@@ -4,3 +4,15 @@ A. 1) A git repo is created, and all files are listed as untracked files.
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 A. It functions as cache, which means it gives opportunities safely save current temporary change.
+
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. I can seletively add changed files to staging area to form one logical change.
+
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. It would be helpful when trying a experimental changes.
+
+
+Q. How do the diagrams help you visualize the branch structure?
+A. It makes clear relationship of eash commit, and reachability of each commit.
