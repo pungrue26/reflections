@@ -1,0 +1,6 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. 1) A git repo is created, and all files are listed as untracked files. 
+
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+A. It functions as cache, which means it gives opportunities safely save current temporary change.
