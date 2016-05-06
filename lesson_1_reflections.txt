@@ -1,12 +1,11 @@
 Q. How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
-A. If the bug is introduced after changing some code, it must be related to the change. 'diff' can help us to find what has been changed.
+A. If a bug is introduced after changing some code, it must be related to the change. 'diff' can help us to find what has been changed.
 
 
 Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-
 A. 
-a) If one need some code snippet that was used in old version, he doesn't have to rewrite the code.b) If there is some part that doesn't look make sense, one can look up history. 
+a) If one need some code snippet that was used in old version, he doesn't have to rewrite the code.
+b) If there is some part that doesn't look make sense, one can look up history. 
 c) If things get changed, and need to roll back to some previous version, it can be easily done.
 
 
