@@ -6,3 +6,6 @@ c) collaborate my project with others
 
 Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A. I might want to seperate changes between my local and remote, because it makes me easier to finish my ongoing job and not getting lost where I am now. 
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A. 포크는 깃허브 상의 다른 리포에 대해 권한은 없으면서 새로운 변경을 가해보고 싶을 때 한다. 클론은 어떤 대상 리포(리모트에 있든 로컬에 있든)를 다른 위치로 복사할 때 사용한다. 브랜치는 한 리포 안에서 커밋 히스토리의 분기를 나누고자 할 때 사용한다.
