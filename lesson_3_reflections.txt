@@ -12,3 +12,6 @@ A. 포크는 깃허브 상의 다른 리포에 대해 권한은 없으면서 새
 
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 A. 오프라인 상태에서도 최근의 리모트 코드를 확인할 수 있다
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A. I can't even imagine what it would looks like without git.
