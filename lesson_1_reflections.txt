@@ -4,33 +4,34 @@ A. If a bug is introduced after changing some code, it must be related to the ch
 
 Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 A. 
-a) If one need some code snippet that was used in old version, he doesn't have to rewrite the code.
-b) If there is some part that doesn't look make sense, one can look up history. 
-c) If things get changed, and need to roll back to some previous version, it can be easily done.
+a) If one needs some code snippet that was used in old version, he doesn't have to rewrite the code.
+b) If there is some part that doesn't look correct or make sense, one can look up the history to rectify it. 
+c) If things get changed, and one needs to roll back to some previous version, it can be easily done.
 
 
 Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
 A. 
-pros: 
-1) can easily find version to roll back. Because we think our workprocess as logical work unit.
-2) no extra work is needed to get working code base.
+Pros: 
+1) One can easily find version to roll back, because we think of our workprocess as a logical work unit.
+2) No extra work is needed to get working code base.
 3) 'diff' would be more efficient, because there is context about what has been changed.
-cons:
-1) loose changed data if user doesn't commit.
-2) log may become too clutered, if user commit too often.
+Cons:
+1) We lose the changed data if the user doesn't commit.
+2) The log may become too cluttered, if user commits too often.
 
 
 Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-A. Because in programming one logical change comes with multiple file change, so that one can save entire working project rather than single individual file.
+A. Because in programming, one logical change comes with multiple file changes, so that one can save entire working project instead of saving single individual files.
 
 
 Q. How can you use the commands git log and git diff to view the history of files?
-A. 1) 'git log' to see commit list 2) git diff $first_id $second_id to view specific commit 
+A. 1) 'git log' : to see commit list 
+   2) 'git diff $first_id $second_id' : to view specific commit 
 
 
 Q. How might using version control make you more confident to make changes that could break something?
-A. Because no matter what changes I make, I can safely restore one that works well.
+A. Because no matter what changes I make, I can safely restore the ones that work well.
 
 
 Q. Now that you have your workspace set up, what do you want to try using Git for?
